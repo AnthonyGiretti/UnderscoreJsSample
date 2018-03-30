@@ -1,5 +1,6 @@
-/* where_.where(list, properties) 
-Looks through each value in the list, returning an array of all the values that contain all of the key-value pairs listed in properties. */
+/* find_.find(list, predicate, [context]) Alias: detect 
+Looks through each value in the list, returning the first one that passes a truth test (predicate), or undefined if no value passes the test.
+The function returns as soon as it finds an acceptable element, and doesn't traverse the entire list. */
 
 var _ = require('underscore');
 
