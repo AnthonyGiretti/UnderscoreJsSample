@@ -1,3 +1,7 @@
+/* countBy_.countBy(list, iteratee, [context]) 
+Sorts a list into groups and returns a count for the number of objects in each group. 
+Similar to groupBy, but instead of returning a list of values, returns a count for the number of values in that group. */
+
 var _ = require('underscore');
 
 var listOfProducts = [
