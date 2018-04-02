@@ -1,3 +1,8 @@
+/* findWhere_.findWhere(list, properties) 
+Looks through the list and returns the first value that matches all of the key-value pairs listed in properties.
+
+If no match is found, or if list is empty, undefined will be returned. */
+
 var _ = require('underscore');
 
 var listOfProducts = [
