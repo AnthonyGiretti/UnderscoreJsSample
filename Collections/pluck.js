@@ -1,3 +1,6 @@
+/* pluck_.pluck(list, propertyName) 
+A convenient version of what is perhaps the most common use-case for map: extracting a list of property values.*/
+
 var _ = require('underscore');
 
 var value = _.pluck([{name: "Doe", firstname: "John"},
