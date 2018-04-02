@@ -1,3 +1,6 @@
+/* partition_.partition(array, predicate) 
+Split array into two arrays: one whose elements all satisfy predicate and one whose elements all do not satisfy predicate.*/
+
 var _ = require('underscore');
 
 var listOfProducts = [
