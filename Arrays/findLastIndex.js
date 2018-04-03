@@ -1,3 +1,6 @@
+/* findLastIndex_.findLastIndex(array, predicate, [context]) 
+Like _.findIndex but iterates the array in reverse, returning the index closest to the end where the predicate truth test passes.*/
+
 var _ = require('underscore');
 
 const isPrime = num => {
