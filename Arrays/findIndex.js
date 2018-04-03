@@ -1,3 +1,6 @@
+/* findIndex_.findIndex(array, predicate, [context]) 
+Similar to _.indexOf, returns the first index where the predicate truth test passes; otherwise returns -1.*/
+
 var _ = require('underscore');
 
 const isPrime = num => {
