@@ -1,3 +1,6 @@
+/* isNull_.isNull(object) 
+Returns true if the value of object is null.*/
+
 var _ = require('underscore');
 
 console.log(_.isNull(null));
