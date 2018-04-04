@@ -1,3 +1,6 @@
+/* defaults_.defaults(object, *defaults) 
+Fill in undefined properties in object with the first value present in the following list of defaults objects. */
+
 var _ = require('underscore');
 
 var testObject = {definedKey: 'alreadyDefinedValue'};
