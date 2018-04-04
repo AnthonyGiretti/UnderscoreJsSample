@@ -1,3 +1,6 @@
+/* clone_.clone(object) 
+Create a shallow-copied clone of the provided plain object. Any nested objects or arrays will be copied by reference, not duplicated. */
+
 var _ = require('underscore');
 
 var testObject = {firstKey: 'firstValue', referenceKey: { first: 'originalValue'} };
