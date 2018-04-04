@@ -1,3 +1,6 @@
+/* allKeys_.allKeys(object) 
+Retrieve all the names of object's own and inherited properties.*/
+
 var _ = require('underscore');
 
 function Test(fruit, vegetable) {
