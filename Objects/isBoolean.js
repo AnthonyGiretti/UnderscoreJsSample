@@ -1,3 +1,6 @@
+/* isBoolean_.isBoolean(object) 
+Returns true if object is either true or false.*/ 
+
 var _ = require('underscore');
 
 var test1 = true;

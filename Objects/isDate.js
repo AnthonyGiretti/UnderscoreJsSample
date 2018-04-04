@@ -1,3 +1,6 @@
+/* isDate_.isDate(object) 
+Returns true if object is a Date. */
+
 var _ = require('underscore');
 
 var test1 = new Date();

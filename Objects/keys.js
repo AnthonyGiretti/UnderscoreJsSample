@@ -1,3 +1,6 @@
+/* keys_.keys(object) 
+Retrieve all the names of the object's own enumerable properties.*/
+
 var _ = require('underscore');
 
 function Test(fruit, vegetable) {

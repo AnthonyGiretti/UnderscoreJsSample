@@ -1,3 +1,6 @@
+/* isEqual_.isEqual(object, other) 
+Performs an optimized deep comparison between the two objects, to determine if they should be considered equal. */
+
 var _ = require('underscore');
 
 var object = {firstKey: 'firstValue', secondKey: 'secondValue', thirdKey: 'thirdValue'};

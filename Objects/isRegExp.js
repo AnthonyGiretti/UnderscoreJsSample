@@ -1,3 +1,6 @@
+/* isRegExp_.isRegExp(object) 
+Returns true if object is a RegExp.*/
+
 var _ = require('underscore');
 
 var regex1 = /\w+/;

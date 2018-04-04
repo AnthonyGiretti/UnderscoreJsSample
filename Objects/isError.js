@@ -1,3 +1,6 @@
+/* isError_.isError(object) 
+Returns true if object inherits from an Error.*/
+
 var _ = require('underscore');
 
 try {
