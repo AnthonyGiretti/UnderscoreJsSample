@@ -11,5 +11,5 @@ const isPrime = num => {
 var value = _.findIndex([4, 6, 8, 12], isPrime);
 console.log(value);
 
-value = _.findIndex([4, 6, 7, 12], isPrime);
-console.log(value);
+var value2 = _.findIndex([4, 6, 7, 12], isPrime);
+console.log(value2);
