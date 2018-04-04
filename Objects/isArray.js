@@ -1,3 +1,6 @@
+/* isArray_.isArray(object) 
+Returns true if object is an Array. */
+
 var _ = require('underscore');
 
 var object1 = {firstKey: 'firstValue', secondKey: 'secondValue', thirdKey: 'thirdValue'};
