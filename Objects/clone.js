@@ -9,4 +9,5 @@ var value = _.clone(testObject);
 console.log(value);
 
 testObject.referenceKey.first = 'changed value to original reference';
-console.log(value);
+var value2 = _.clone(testObject);
+console.log(value2);
